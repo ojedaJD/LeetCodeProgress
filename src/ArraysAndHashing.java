@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 
 public class ArraysAndHashing {
 
@@ -68,7 +69,66 @@ public class ArraysAndHashing {
     public int[] twoSum(int[] nums, int target) {
 
 
+
         return nums;
+    }
+
+    // Given an array of strings strs, group all anagrams together into sublists.
+    // You may return the output in any order.
+    // An anagram is a string that contains the exact same characters as another string,
+    // but the order of the characters can be different.
+
+    public List<List<String>> groupAnagrams(String[] strs) {
+
+
+        return List.of();
+    }
+
+
+    // Given an integer array nums and an integer k,
+    // return the k most frequent elements within the array.
+    // The test cases are generated such that the answer is always unique.
+    // You may return the output in any order.
+
+    public int[] topKFrequent(int[] nums, int k) {
+
+        return nums;
+    }
+
+
+    // Design an algorithm to encode a list of strings to a single string. The encoded string is then decoded back to the original list of strings.
+    // Please implement encode and decode
+
+    public String encode(List<String> strs) {
+
+        return "";
+    }
+
+    public List<String> decode(String str) {
+
+        return List.of();
+    }
+
+
+    // Given an integer array nums,
+    // return an array output where output[i] is the product of all the elements of nums except nums[i].
+    // Each product is guaranteed to fit in a 32-bit integer.
+    // Follow-up: Could you solve it in
+    // O(n) time without using the division operation?
+
+    public int[] productExceptSelf(int[] nums) {
+
+        return nums;
+    }
+
+    // Given an array of integers nums, return the length of the longest consecutive sequence of elements.
+    // A consecutive sequence is a sequence of elements in which
+    // each element is exactly 1 greater than the previous element.
+    // You must write an algorithm that runs in O(n) time.
+
+    public int longestConsecutive(int[] nums) {
+
+        return 0;
     }
 
 
