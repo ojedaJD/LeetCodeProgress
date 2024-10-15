@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
@@ -68,7 +69,20 @@ public class ArraysAndHashing {
 
     public int[] twoSum(int[] nums, int target) {
 
+        HashMap<Integer, Integer> temp = new HashMap<Integer, Integer>();
 
+        for(int i = 0; i < nums.length; i++) {
+
+            int num = nums[i];
+            int diff = target - num;
+
+            if (temp.containsKey(diff)) {
+
+                return new int[]{temp.get(diff), i};
+            }
+
+            temp.put(num, i);
+        }
 
         return nums;
     }
